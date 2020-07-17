@@ -4,6 +4,7 @@ LABEL version="3.5.4-r0"
 LABEL maintainers="[John Sing Dao Siu](https://github.com/J-Siu)"
 LABEL name="postfix"
 LABEL usage="https://github.com/J-Siu/docker_postfix/blob/master/README.md"
+LABEL description="Docker - Postfix with sasldb2 support"
 
 RUN apk --no-cache add ca-certificates ca-certificates-bundle tzdata
 RUN apk --no-cache add \
