@@ -137,6 +137,8 @@ docker-compose up
   - Postfix version 3.5.3-r0
 - 3.5.4-r0
   - Auto update to 3.5.4-r0
+- 3.5.4-r0-p0
+  - Remove cyrus-sasl-plain
 <!--CHANGE-LOG-END-->
 
 ### License

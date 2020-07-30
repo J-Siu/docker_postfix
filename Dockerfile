@@ -15,7 +15,6 @@ RUN apk --no-cache add \
 		cyrus-sasl-gssapiv2 \
 		cyrus-sasl-login \
 		cyrus-sasl-ntlm \
-		cyrus-sasl-plain \
 		cyrus-sasl-scram \
 		postfix=3.5.4-r0 && \
 	tar cjf /postfix.pkg.tgz -C /etc postfix && \
