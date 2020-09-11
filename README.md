@@ -141,6 +141,8 @@ docker-compose up
   - Remove cyrus-sasl-plain
 - 3.5.6-r0
   - Auto update to 3.5.6-r0
+- 3.5.7-r0
+  - Auto update to 3.5.7-r0
 <!--CHANGE-LOG-END-->
 
 ### License
