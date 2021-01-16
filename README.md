@@ -1,4 +1,7 @@
 Docker - Postfix with sasldb2 support
+
+> Berkeley DB (DBD) is no longer supported on Alpine Linux. https://wiki.alpinelinux.org/wiki/Release_Notes_for_Alpine_3.13.0#Deprecation_of_Berkeley_DB_.28BDB.29
+
 <!--more-->
 ### Build
 
@@ -147,13 +150,15 @@ docker-compose up
   - Auto update to 3.5.7-r2
 - 3.5.8-r0
   - Auto update to 3.5.8-r0
+- 3.5.8-r0-p1
+  - Create /etc/sasl2 directory
 <!--CHANGE-LOG-END-->
 
 ### License
 
 The MIT License
 
-Copyright (c) 2020
+Copyright (c) 2021
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 

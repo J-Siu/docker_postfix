@@ -21,6 +21,7 @@ else
 fi
 
 # Copy /etc/postfix/sasl2
+mkdir /etc/sasl2
 if [ -d /etc/postfix/sasl2 ]; then
 	cp -a /etc/postfix/sasl2/* /etc/sasl2/
 fi
