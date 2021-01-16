@@ -26,7 +26,4 @@ if [ -d /etc/postfix/sasl2 ]; then
 	cp -a /etc/postfix/sasl2/* /etc/sasl2/
 fi
 
-# update aliases
-newaliases
-
 exec postfix start-fg
