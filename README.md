@@ -154,6 +154,8 @@ docker-compose up
   - Create /etc/sasl2 directory
 - 3.5.8-r0-p2
   - Fix start.sh
+- 3.5.9-r0
+  - Auto update to 3.5.9-r0
 <!--CHANGE-LOG-END-->
 
 ### License

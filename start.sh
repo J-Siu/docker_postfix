@@ -1,7 +1,7 @@
 #!/bin/sh
 
-echo P_TZ:${P_TZ}
 if [ "${#P_TZ}" -gt "0" ]; then
+	echo P_TZ:${P_TZ}
 	TZ="/usr/share/zoneinfo/${P_TZ}"
 	if [ -f "${TZ}" ]; then
 		cp ${TZ} /etc/localtime
@@ -21,9 +21,9 @@ else
 fi
 
 # Copy /etc/postfix/sasl2
-mkdir /etc/sasl2
 if [ -d /etc/postfix/sasl2 ]; then
-	cp -a /etc/postfix/sasl2/* /etc/sasl2/
+	rm -rf /etc/sasl2
+	mv /etc/postfix/sasl2 /etc/
 fi
 
 exec postfix start-fg
