@@ -121,7 +121,7 @@ docker-compose up
 
 ### Repository
 
-- [docker_compose](https://github.com/J-Siu/docker_postfix)
+- [docker_postfix](https://github.com/J-Siu/docker_postfix)
 
 ### Contributors
 
