@@ -158,6 +158,8 @@ docker-compose up
   - Auto update to 3.5.9-r0
 - 3.5.9-r0-p0
   - Force rebuild to use cyrus-sasl 2.1.27-r12
+- 3.6.0-r0
+  - Auto update to 3.6.0-r0
 <!--CHANGE-LOG-END-->
 
 ### License
