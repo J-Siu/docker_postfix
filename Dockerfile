@@ -1,6 +1,6 @@
 FROM alpine:edge
 
-LABEL version="3.6.1-r0"
+LABEL version="3.7.0-r2"
 LABEL maintainers="[John Sing Dao Siu](https://github.com/J-Siu)"
 LABEL name="postfix"
 LABEL usage="https://github.com/J-Siu/docker_postfix/blob/master/README.md"
@@ -16,7 +16,7 @@ RUN apk --no-cache add \
 		cyrus-sasl-login \
 		cyrus-sasl-ntlm \
 		cyrus-sasl-scram \
-		postfix=3.6.1-r0 && \
+		postfix=3.7.0-r2 && \
 	tar cjf /postfix.pkg.tgz -C /etc postfix && \
 	rm -rf /etc/postfix
 
