@@ -164,6 +164,8 @@ docker-compose up
   - Auto update to 3.6.1-r0
 - 3.7.0-r2
   - Auto update to 3.7.0-r2
+- 3.7.0-r2-p1
+  - Add docker push github workflow
 <!--CHANGE-LOG-END-->
 
 ### License
