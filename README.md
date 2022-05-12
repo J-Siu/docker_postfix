@@ -168,6 +168,8 @@ docker-compose up
   - Add docker push github workflow
 - 3.7.1-r1
   - Auto update to 3.7.1-r1
+- 3.7.2-r0
+  - Auto update to 3.7.2-r0
 <!--CHANGE-LOG-END-->
 
 ### License
