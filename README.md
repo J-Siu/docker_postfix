@@ -1,4 +1,4 @@
-Docker - Postfix with sasldb2 support
+# Docker - Postfix with cyrus/sasldb2 support [![Paypal donate](https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif)](https://www.paypal.com/donate/?business=HZF49NM9D35SJ&no_recurring=0&currency_code=CAD)
 
 > Berkeley DB (DBD) is no longer supported on Alpine Linux. https://wiki.alpinelinux.org/wiki/Release_Notes_for_Alpine_3.13.0#Deprecation_of_Berkeley_DB_.28BDB.29
 
@@ -27,7 +27,7 @@ ${TZ}|${P_TZ}|no|time zone
 
 Container will automatically exit if no configuration volume (`${POSTFIX_CNF}`), or if configuration volume is empty.
 
-The permission and ownership of `${POSTFIX_CNF}` is not important. Container `start.sh` copies `/postfix` to `/etc/` and applies ownership and permission to `/etec/postfix` accordingly.
+The permission and ownership of `${POSTFIX_CNF}` is not important. Container `start.sh` copies `/postfix` to `/etc/` and applies ownership and permission to `/etc/postfix` accordingly.
 
 Postfix configuration come with Alpine package install is included in the container at `/postfix.pkg.tgz`. Retrieve it with following commands:
 
