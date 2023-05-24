@@ -174,6 +174,8 @@ docker-compose up
   - Auto update to 3.7.2-r1
 - 3.7.4-r0
   - Auto update to 3.7.4-r0
+- 3.8.0-r1
+  - Auto update to 3.8.0-r1
 <!--CHANGE-LOG-END-->
 
 ### License
