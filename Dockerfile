@@ -1,6 +1,6 @@
 FROM alpine:edge
 
-LABEL version="3.10.4-r0"
+LABEL version="3.10.4-r0-p0"
 LABEL maintainers="[John Sing Dao Siu](https://github.com/J-Siu)"
 LABEL name="postfix"
 LABEL usage="https://github.com/J-Siu/docker_postfix/blob/master/README.md"
