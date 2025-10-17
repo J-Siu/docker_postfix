@@ -1,0 +1,55 @@
+- 1.0
+  - Initial commit.
+- 1.1
+  - Dockerfile remove apk update
+  - start.sh
+    - Use exec so start.sh can exit
+- 3.5.3-r0
+  - Adopt Postfix version
+  - Postfix version 3.5.3-r0
+- 3.5.4-r0
+  - Auto update to 3.5.4-r0
+- 3.5.4-r0-p0
+  - Remove cyrus-sasl-plain
+- 3.5.6-r0
+  - Auto update to 3.5.6-r0
+- 3.5.7-r0
+  - Auto update to 3.5.7-r0
+- 3.5.7-r2
+  - Auto update to 3.5.7-r2
+- 3.5.8-r0
+  - Auto update to 3.5.8-r0
+- 3.5.8-r0-p1
+  - Create /etc/sasl2 directory
+- 3.5.8-r0-p2
+  - Fix start.sh
+- 3.5.9-r0
+  - Auto update to 3.5.9-r0
+- 3.5.9-r0-p0
+  - Force rebuild to use cyrus-sasl 2.1.27-r12
+- 3.6.0-r0
+  - Auto update to 3.6.0-r0
+- 3.6.1-r0
+  - Auto update to 3.6.1-r0
+- 3.7.0-r2
+  - Auto update to 3.7.0-r2
+- 3.7.0-r2-p1
+  - Add docker push github workflow
+- 3.7.1-r1
+  - Auto update to 3.7.1-r1
+- 3.7.2-r0
+  - Auto update to 3.7.2-r0
+- 3.7.2-r1
+  - Auto update to 3.7.2-r1
+- 3.7.4-r0
+  - Auto update to 3.7.4-r0
+- 3.8.0-r1
+  - Auto update to 3.8.0-r1
+- 3.8.1-r0
+  - Auto update to 3.8.1-r0
+- 3.9.0-r1
+  - Auto update to 3.9.0-r1
+- 3.10.3-r0
+  - Auto update to 3.10.3-r0
+- 3.10.4-r0
+  - Auto update to 3.10.4-r0

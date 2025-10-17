@@ -1,8 +1,25 @@
 # Docker - Postfix with cyrus/sasldb2 support [![Paypal donate](https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif)](https://www.paypal.com/donate/?business=HZF49NM9D35SJ&no_recurring=0&currency_code=CAD)
 
-> Berkeley DB (DBD) is no longer supported on Alpine Linux. https://wiki.alpinelinux.org/wiki/Release_Notes_for_Alpine_3.13.0#Deprecation_of_Berkeley_DB_.28BDB.29
+- [Build](#build)
+- [Usage](#usage)
+  - [Host Directories and Volume Mapping](#host-directories-and-volume-mapping)
+  - [Postfix Configuration](#postfix-configuration)
+    - [Configuration Volume](#configuration-volume)
+    - [aliases](#aliases)
+    - [sasldb2](#sasldb2)
+  - [Logs](#logs)
+    - [/dev/log](#devlog)
+    - [/dev/stdout](#devstdout)
+  - [Run](#run)
+  - [Compose](#compose)
+- [Repository](#repository)
+- [Contributors](#contributors)
+- [License](#license)
 
 <!--more-->
+
+> Alpine Linux starting 3.13 no longer support Berkeley DB (DBD). https://wiki.alpinelinux.org/wiki/Release_Notes_for_Alpine_3.13.0#Deprecation_of_Berkeley_DB_.28BDB.29
+
 ### Build
 
 ```sh
@@ -126,65 +143,6 @@ docker-compose up
 ### Contributors
 
 - [John Sing Dao Siu](https://github.com/J-Siu)
-
-### Change Log
-
-- 1.0
-  - Initial commit.
-- 1.1
-  - Dockerfile remove apk update
-  - start.sh
-    - Use exec so start.sh can exit
-- 3.5.3-r0
-  - Adopt Postfix version
-  - Postfix version 3.5.3-r0
-- 3.5.4-r0
-  - Auto update to 3.5.4-r0
-- 3.5.4-r0-p0
-  - Remove cyrus-sasl-plain
-- 3.5.6-r0
-  - Auto update to 3.5.6-r0
-- 3.5.7-r0
-  - Auto update to 3.5.7-r0
-- 3.5.7-r2
-  - Auto update to 3.5.7-r2
-- 3.5.8-r0
-  - Auto update to 3.5.8-r0
-- 3.5.8-r0-p1
-  - Create /etc/sasl2 directory
-- 3.5.8-r0-p2
-  - Fix start.sh
-- 3.5.9-r0
-  - Auto update to 3.5.9-r0
-- 3.5.9-r0-p0
-  - Force rebuild to use cyrus-sasl 2.1.27-r12
-- 3.6.0-r0
-  - Auto update to 3.6.0-r0
-- 3.6.1-r0
-  - Auto update to 3.6.1-r0
-- 3.7.0-r2
-  - Auto update to 3.7.0-r2
-- 3.7.0-r2-p1
-  - Add docker push github workflow
-- 3.7.1-r1
-  - Auto update to 3.7.1-r1
-- 3.7.2-r0
-  - Auto update to 3.7.2-r0
-- 3.7.2-r1
-  - Auto update to 3.7.2-r1
-- 3.7.4-r0
-  - Auto update to 3.7.4-r0
-- 3.8.0-r1
-  - Auto update to 3.8.0-r1
-- 3.8.1-r0
-  - Auto update to 3.8.1-r0
-- 3.9.0-r1
-  - Auto update to 3.9.0-r1
-- 3.10.3-r0
-  - Auto update to 3.10.3-r0
-- 3.10.4-r0
-  - Auto update to 3.10.4-r0
-<!--CHANGE-LOG-END-->
 
 ### License
 
