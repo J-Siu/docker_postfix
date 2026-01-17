@@ -57,3 +57,5 @@
   - Auto update to 3.10.6-r0
 - 3.10.7-r0
   - Auto update to 3.10.7-r0
+- 3.10.7-r1
+  - Auto update to 3.10.7-r1
