@@ -1,6 +1,6 @@
 FROM alpine:edge
-
-LABEL version="3.11.3-r0"
+ARG VERSION="3.11.3-r0"
+LABEL version=${VERSION}
 LABEL maintainers="[John Sing Dao Siu](https://github.com/J-Siu)"
 LABEL name="postfix"
 LABEL usage="https://github.com/J-Siu/docker_postfix/blob/master/README.md"
@@ -9,7 +9,7 @@ LABEL blog="[Tiny VPS Postfix with Docker](//johnsiu.com/blog/tiny-vps-postfix-d
 
 COPY docker-compose.yml env start.sh /
 RUN apk --no-cache add \
-postfix=3.11.3-r0 \
+postfix=${VERSION} \
 	ca-certificates \
 	ca-certificates-bundle \
 	cyrus-sasl \
