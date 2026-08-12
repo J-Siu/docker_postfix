@@ -71,3 +71,5 @@
   - Auto update to 3.11.4-r0
 - 3.11.5-r0
   - Auto update to 3.11.5-r0
+- 3.11.6-r0
+  - Auto update to 3.11.6-r0
