@@ -1,17 +1,17 @@
 FROM alpine:edge
-ARG APP="postfix"
+ARG PKG="postfix"
 ARG VER="3.11.7-r0"
 ARG USR="https://github.com/J-Siu"
 LABEL version=${VER}
 LABEL maintainers="[John Sing Dao Siu](${USR})"
-LABEL name=${APP}
-LABEL usage="${USR}/docker_${APP}/blob/master/README.md"
+LABEL name=${PKG}
+LABEL usage="${USR}/docker_${PKG}/blob/master/README.md"
 LABEL description="Docker - Postfix with sasldb2 support"
 LABEL blog="[Tiny VPS Postfix with Docker](//johnsiu.com/blog/tiny-vps-postfix-docker/)"
 
 COPY docker-compose.yml env start.sh /
 RUN apk --no-cache add \
-${APP}=${VER} \
+${PKG}=${VER} \
 ca-certificates \
 ca-certificates-bundle \
 tzdata \
